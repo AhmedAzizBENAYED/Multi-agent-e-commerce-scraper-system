@@ -1,0 +1,64 @@
+{
+  "spacenet.tn": {
+    "domain": "spacenet.tn",
+    "name": "SpaceNet",
+    "selectors": {
+      "product_list": "#js-product-list .products",
+      "product_item": ".field-product-item.item-inner.product-miniature.js-product-miniature",
+      "product_item_alt": ".item.col-xs-6.col-sm-4.col-md-3.col-lg-3",
+      "product_name": "h2.product_name a",
+      "product_link": "a.product_name, .product-title a",
+      "product_id": "[data-id-product]",
+      "product_image": ".product-thumbnail img, img.product-thumbnail",
+      "regular_price": ".regular-price",
+      "discount_amount": ".discount-amount",
+      "final_price": ".price",
+      "product_reference": ".product-reference"
+    },
+    "promotion_indicator": {
+      "has_both": ["regular_price", "discount_amount"]
+    },
+    "price_format": "DT"
+  },
+  "tunisianet.com.tn": {
+    "domain": "tunisianet.com.tn",
+    "name": "TunisiaNet",
+    "selectors": {
+      "product_list": "#js-product-list, .products.product-thumbs.row.wb-product-list",
+      "product_item": "article.product-miniature.js-product-miniature",
+      "product_item_alt": ".item-product.col-xs-12",
+      "product_name": "h2.product-title a, .product-title",
+      "product_link": ".product-title a",
+      "product_id": "[data-id-product]",
+      "product_image": ".product-thumbnail img, img",
+      "regular_price": ".regular-price",
+      "final_price": "span.price[itemprop='price'], .price",
+      "product_manufacturer": ".product-manufacturer"
+    },
+    "promotion_indicator": {
+      "has_both": ["final_price", "regular_price"]
+    },
+    "price_format": "DT"
+  },
+  "mytek.tn": {
+    "domain": "mytek.tn",
+    "name": "MyTek",
+    "selectors": {
+      "product_list": "#product-cards-row.row, #product-list-container",
+      "product_item": ".product-container.card",
+      "product_item_alt": ".d-flex.justify-content-center.col-lg-3.col-md-4.col-sm-6.mb-4",
+      "product_name": "h2.product-item-name, .product-item-name",
+      "product_link": ".product-item-name a",
+      "product_id": "[data-product-id]",
+      "product_image": ".product-item-photo img, img",
+      "product_sku": ".sku",
+      "product_description": ".search-short-description",
+      "regular_price": ".original-price span, .original-price",
+      "final_price": ".final-price span, .final-price"
+    },
+    "promotion_indicator": {
+      "has_both": ["final_price", "regular_price"]
+    },
+    "price_format": "DT"
+  }
+}

@@ -1,0 +1,22 @@
+# Core dependencies
+requests
+beautifulsoup4
+lxml
+
+# LangChain and LangGraph with Ollama support
+langchain
+langchain-ollama
+langgraph
+langchain-core
+
+# Optional: For JavaScript-heavy sites (MyTek)
+
+# Data handling
+dataclasses-json
+
+# For better HTML parsing
+html5lib
+
+# Note: You also need to install Ollama separately
+# Download from: https://ollama.ai/
+# After installation, pull a model: ollama pull llama3.2
