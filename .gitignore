@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment
+.env
+
+# Generated scraping output (produced on each run)
+all_promotions*.json
+promotions.json
+crawler_results_*.json
+scraping_report.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
